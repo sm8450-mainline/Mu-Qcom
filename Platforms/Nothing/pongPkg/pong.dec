@@ -1,0 +1,11 @@
+[Defines]
+  DEC_SPECIFICATION                   = 0x00010005
+  PACKAGE_NAME                        = pong
+  PACKAGE_GUID                        = ffb2bbdd-8d34-4cb1-af89-ee56df3c5a68
+  PACKAGE_VERSION                     = 0.1
+
+[Includes.common]
+  Include                               # Root include for the package
+
+[Guids.common]
+  gpongTokenSpaceGuid    = { 0xffb2bbdd, 0x8d34, 0x4cb1, { 0xaf, 0x89, 0xee, 0x56, 0xdf, 0x3c, 0x5a, 0x68 } }
